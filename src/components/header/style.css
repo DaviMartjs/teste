@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+header {
+    align-items: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>nav>ul,
+li {
+    text-decoration: none;
+    gap: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
