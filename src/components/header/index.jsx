@@ -1,6 +1,5 @@
 import './style.css'
 import ibridge from './ibridge.png'
-import React, { App } from "../avatar/index.js"
 import { Avatar } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 
