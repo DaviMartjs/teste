@@ -1,0 +1,1 @@
+Aplicação para fins de teste no react

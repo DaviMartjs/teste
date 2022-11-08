@@ -1,19 +1,24 @@
 import './style.css'
+import ibridge from './ibridge.png'
+import React, { App } from "../avatar/index.js"
+import { Avatar } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
 
 export function Header() {
     return (
         <>
         <header className='header'>
-                <div id="icon"><img src="./ibridge.png" alt="" /></div>
+                <div id="icondiv"><img id="icon" src={ibridge} alt="" /></div>
                 <nav>
                     <ul className="buttons">
-                        <li>Link</li>
-                        <li>Link</li>
-                        <li>Link</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
                   </ul>
                 </nav>
-                <button id="button">Button</button>
-        </header>
+                <div id='avatar'><Avatar shape="square" size="small" icon={<UserOutlined/>}/></div>
+            </header>
+            <hr />
         </>
     )
 }
